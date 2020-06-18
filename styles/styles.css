@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+}
+
+#login_form, #signup_form {
+  width: 300px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+#login_form > label,
+#signup_form > label {
+  display: block;
+  margin-bottom: 20px;
+  text-align: right;
+}
+#login_form > label > input,
+#signup_form > label > input {
+  width: 150px;
+}
+
+#login_form > div,
+#signup_form > div {
+  text-align: right;
+}
+
+#login_button, #signup_button {
+  background-color: #0099ff;
+  border-radius: 5px;
+  color: white;
+}
